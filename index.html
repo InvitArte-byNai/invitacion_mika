@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>XV Años de Micaela</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <link rel="stylesheet" href="/css/styles.css">
+</head>
+<body>
+  <!-- Loading Screen -->
+  <div id="loading-screen" class="loading-screen">
+    <div class="text-center">
+      <p class="text-2xl text-white mb-4 animate-fadeIn">TRAIGO UN NOTICIÓN!!!</p>
+      <div class="spinner"></div>
+    </div>
+  </div>
+
+  <!-- Main Content -->
+  <div id="main-content" class="opacity-0 transition-opacity duration-1000">
+    <!-- Hero Section -->
+    <section class="hero">
+      <div class="hero-overlay"></div>
+      <div class="relative z-10 text-center p-6">
+        <h2 class="text-xl text-white mb-4" data-aos="fade-down">
+          · TE INVITO A MIS XV ·
+        </h2>
+        <h1 class="text-7xl font-script text-white mb-6" data-aos="fade-up" data-aos-delay="300">
+          Micaela
+        </h1>
+        <div class="decorative-line" data-aos="fade-up" data-aos-delay="600">
+          <svg class="decorative-flourish" viewBox="0 0 150 50">
+            <path d="M10,25 Q50,5 90,25 Q130,45 140,25" stroke="var(--gold)" fill="none" stroke-width="1.5" />
+          </svg>
+        </div>
+        <div class="scroll-arrow">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path
+              d="M12 5V19M12 19L5 12M12 19L19 12"
+              stroke="white"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            />
+          </svg>
+        </div>
+      </div>
+    </section>
+
+    <!-- Countdown Section -->
+    <div class="countdown-container">
+      <div id="countdown" class="countdown">
+        <div class="countdown-item">
+          <span id="days">00</span>
+          <span class="countdown-label">Días</span>
+        </div>
+        <div class="countdown-item">
+          <span id="hours">00</span>
+          <span class="countdown-label">Horas</span>
+        </div>
+        <div class="countdown-item">
+          <span id="minutes">00</span>
+          <span class="countdown-label">Minutos</span>
+        </div>
+        <div class="countdown-item">
+          <span id="seconds">00</span>
+          <span class="countdown-label">Segundos</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- Info Section with 3 columns -->
+    <section class="info-section">
+      <div class="container">
+        <div class="info-grid">
+          <!-- Cuando Column -->
+          <div class="info-column" data-aos="fade-up" data-aos-delay="100">
+            <div class="info-icon">
+              <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect>
+                <line x1="16" y1="2" x2="16" y2="6"></line>
+                <line x1="8" y1="2" x2="8" y2="6"></line>
+                <line x1="3" y1="10" x2="21" y2="10"></line>
+              </svg>
+            </div>
+            <h3 class="info-title font-script">Cuando</h3>
+            <div class="info-content">
+              <p>SÁBADO 14 JUNIO</p>
+              <p>21HS</p>
+            </div>
+          </div>
+
+          <!-- Donde Column -->
+          <div class="info-column" data-aos="fade-up" data-aos-delay="200">
+            <div class="info-icon">
+              <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
+                <circle cx="12" cy="10" r="3"></circle>
+              </svg>
+            </div>
+            <h3 class="info-title font-script">Dónde</h3>
+            <div class="info-content">
+              <p>Salón de Eventos</p>
+              <a href="https://maps.app.goo.gl/49b2wyd9QG4Pgyjx7" class="btn-link" target="_blank">CÓMO LLEGAR</a>
+            </div>
+          </div>
+
+          <!-- Dress Code Column -->
+          <div class="info-column" data-aos="fade-up" data-aos-delay="300">
+            <div class="info-icon">
+              <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M20.38 3.46L16 2a4 4 0 0 1-8 0L3.62 3.46a2 2 0 0 0-1.34 2.23l.58 3.47a1 1 0 0 0 .99.84H6v10c0 1.1.9 2 2 2h8a2 2 0 0 0 2-2V10h2.15a1 1 0 0 0 .99-.84l.58-3.47a2 2 0 0 0-1.34-2.23z"></path>
+              </svg>
+            </div>
+            <h3 class="info-title font-script">Dress Code</h3>
+            <div class="info-content">
+              <p>ELEGANTE SPORT</p>
+              <p>No vestir de azul 😜</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Te Esperamos Section -->
+    <section class="te-esperamos-section">
+      <div class="container">
+        <h2 class="big-text font-script" data-aos="fade-up">Te espero!!!</h2>
+        <p class="small-text" data-aos="fade-up" data-aos-delay="200">
+          Para que formes parte de esta gran celebración. <br>¡Confirma tu asistencia!
+        </p>
+        <a href="https://docs.google.com/forms/d/e/1FAIpQLSdFR8qS3bA7XOPIY5SkhR4lKlLXbo4vc_5N-1i4idNV3fC_XA/viewform?embedded=true" class="btn-navy" data-aos="fade-up" data-aos-delay="300" target="_blank" rel="noopener noreferrer">
+          CONFIRMAR ASISTENCIA
+        </a>
+      </div>
+    </section>
+
+    <!-- Music Section -->
+    <section class="section-alt">
+      <div class="container">
+        <div class="card" data-aos="fade-up">
+          <div class="text-gold mb-6 flex justify-center">
+            <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M9 18V5l12-2v13"></path>
+              <circle cx="6" cy="18" r="3"></circle>
+              <circle cx="18" cy="16" r="3"></circle>
+            </svg>
+          </div>
+          <h2 class="text-2xl text-white mb-6 text-center">Elegí la música</h2>
+          <p class="text-white/80 mb-8 text-center">¿Qué querés escuchar esa noche?</p>
+          <a
+            href="https://docs.google.com/forms/d/e/1FAIpQLScpTDkIJQ_Lp_sxPguQooAV7RKyUPw8voyNlOds8LFo1jKXLA/viewform?embedded=true"
+            target="_blank"
+            class="btn w-full"
+            rel="noopener noreferrer"
+          >
+            Elegir música
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Gift Section -->
+    <section class="gift-section">
+      <div class="container">
+        <div class="gift-content" data-aos="fade-up">
+          <div class="gift-icon">
+            <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M20 12v10H4V12"></path>
+              <path d="M2 7h20v5H2z"></path>
+              <path d="M12 22V7"></path>
+              <path d="M12 7H7.5a2.5 2.5 0 0 1 0-5C11 2 12 7 12 7z"></path>
+              <path d="M12 7h4.5a2.5 2.5 0 0 0 0-5C13 2 12 7 12 7z"></path>
+            </svg>
+          </div>
+          <p class="gift-text font-script">
+            Si desean hacerme un regalo, pueden colaborar con mis ahorros
+          </p>
+          <div class="alias-box">
+            <p class="text-white mb-2">
+              <strong>Alias:</strong> <span id="alias">mika.0902</span>
+            </p>
+            <button onclick="copiarAlias()" class="btn-navy">
+              COPIAR ALIAS
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="py-8 text-center text-white/50 text-sm">
+      Hecho por @invitArte_byNai
+      <svg class="icon-sm text-gold" viewBox="0 0 24 24" fill="currentColor" stroke="none">
+        <path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"></path>
+      </svg>
+      | Invitación Web Personalizada
+    </footer>
+  </div>
+
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script src="/js/script.js"></script>
+</body>
+</html>
